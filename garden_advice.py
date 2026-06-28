@@ -1,5 +1,5 @@
-season = "summer"  # TODO: Replace with input() to allow user interaction.
-plant_type = "flower"  # TODO: Replace with input() to allow user interaction.
+season = input("Enter the current season (summer/winter/other): ").strip().lower()
+plant_type = input("Enter your plant type (flower/vegetable/other): ").strip().lower()
 
 
 def get_season_advice(season):
